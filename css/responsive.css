@@ -1,0 +1,139 @@
+
+
+@media only screen and (max-width:1042px){
+    .profileSection, .contentSection{
+        width: 100%;
+    }
+
+
+    .desktop{
+        display: none;
+    }
+
+
+    .mobile{
+        display: block;
+    }
+
+    .userBanner img{
+        height: 350px;
+    }
+
+    .orgSection{
+        width: 100%;
+    }
+
+    .heartIcon{
+        top:120px!important;
+    }
+
+
+    .colOne{
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .colOne img{
+        width: 47%;
+    }
+
+
+    .event-count .countdown .countLabel h3{
+        font-size:25px!important;
+    }
+    
+    .event-count .countdown .countLabel span{
+        font-size:12px!important;
+    }
+
+
+
+    .event-count .countdown .countLabel{
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .colThree img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+    .icon-controls{
+        justify-content: center;
+    }
+
+    
+
+    .event-user-sec, .user-profile{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .user-profile ul li::after{
+        display: none;
+    }
+
+    .date-location{
+        flex-direction: column;
+    }
+
+    .dl-sec{
+        width: 100%;
+    }
+
+    .agendaCards{
+        flex-direction: column;
+    }
+
+    .cardDate, .cardDetails{
+        width:100%;
+        padding:25px;
+    }
+
+
+    .speakerItem{
+        width: 100%;
+    }
+
+
+    .sponPartImgs{
+        flex-wrap: wrap;
+    }
+
+
+    .sponPart{
+        padding:60px 20px;
+    }
+
+    .sponPartImgs img{
+        width: 50%;
+        padding: 10px;
+    }
+
+
+    .footer-Logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-social{
+        align-items: center;
+    }
+
+    .fqsSec h3,
+    .sponPart h3,
+    .spkrSect h2{
+        font-size: 30px;
+    }
+
+    .url-input, .copy-button{
+        width: 100%;
+    }
+
+}
