@@ -59,6 +59,12 @@
     font-size: 25px;
 }
 
+.followBtn{
+    background-color: #5e005e!important;
+    color:#fff!important;
+    padding:15px;
+}
+
 
 .nav-action hr{
     width: 0px;
@@ -606,9 +612,12 @@
     padding:15px;
     border-radius: 15px;
     justify-content: space-between;
+    align-items: center;
 }
 
-
+.user-profile ul li::after{
+    display:none;
+}
 
 .user-profile{
     display:flex;
@@ -882,7 +891,7 @@
     color:#000;
     font-family: 'Poppins';
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
@@ -908,7 +917,7 @@
     font-family: 'Poppins';
     font-weight: 800;
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -926,14 +935,14 @@
 
 
 .cardDetails h3{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Poppins';
     font-weight: 600;
     color:#000;
 }
 
 .cardDetails p{
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Poppins';
     font-weight: 400;
     color:#000;
