@@ -136,4 +136,37 @@
         width: 100%;
     }
 
+
+    .bannerInner{
+        height: 300px;
+    }
+
+    .bannerInnerContent h1{
+        font-size: 50px;
+    }
+
+    .btnSection{
+        justify-content: flex-start;
+    }
+
+    .orgInnerSec h2, 
+    .mapSection h2,
+    .filterTitle h2,
+    .bannerInnerContent h1{
+        font-size: 35px;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width:500px){
+    .bannerInner{
+        height: 250px;
+        background-size: cover;
+    }
+    .dropdown-toggle{
+        width: 100%!important;
+    }
 }

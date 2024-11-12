@@ -1341,6 +1341,163 @@
 
 
 
+/* Emsterdam Page */
+
+
+.bannerInner{
+    background-image: url('../img/newImg33.webp');
+    background-position: center center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerInnerContent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerInnerContent h1{
+    font-size: 65px;
+    font-weight: 800;
+    color:#FFD700;
+}
+
+
+.dropdown-toggle{
+    width:200px!important;
+    background-color: #fff!important;
+    border-radius: 5px!important;
+    color:#868686!important;
+    padding:15px 20px!important;
+    text-align: left!important;
+    position: relative;
+    border: 0px!important;
+    box-shadow: 0px 0px 5px #0000004d;
+}
+
+.dropdown-toggle::after{
+    right:20px!important;
+    top:25px!important;
+    position: absolute;
+    border-top: .4em solid!important;
+    border-right: .6em solid transparent!important;
+    border-bottom: 0!important;
+    border-left: .5em solid transparent!important;
+}
+
+.dropdown h4{
+    font-size: 18px;
+    font-family: 'Poppins';
+    color:#741774;
+}
+
+.filterTitle h2{
+    margin:20px 0px;
+    font-family: 'Poppins';
+    font-size: 45px;
+    color:#000;
+    font-weight: 800;
+}
+
+.filterTitle, .btnSection{
+    flex: auto;
+}
+
+.btnSection{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.getUpdateBtn{
+    width:280px;
+    border-radius: 50px;
+    text-decoration: none;
+    color:#000;
+    padding:15px 20px;
+    gap:15px;
+    display: flex;
+    background-color: #DCDCDC;
+}
+
+.getUpdateBtn button{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color:#000;
+    font-family: 'Poppins';
+}
+
+.mapSection h2{
+    text-align: center;
+    font-size: 45px;
+    color:#000;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.orgPerCard{
+    border-radius: 25px;
+    background-color: #F5F5F5;
+    flex:auto;
+    height: 320px;
+}
+
+.orgPerCard img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.orgPerCard h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    margin: 0;
+}
+
+.orgPerCard p{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin: 0;
+}
+
+.orgPerCard a{
+    text-align: center;
+    padding: 10px 15px;
+    width:100%;
+    background-color: #741774;
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+
+.orgInnerSec h2{
+    text-align: left;
+    font-size: 45px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    margin: 0;
+    margin-bottom:20px;
+}
+
+
+/* End Emsterdam Page */
+
+
 
 
 
