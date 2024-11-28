@@ -156,6 +156,10 @@
         font-size: 35px;
     }
 
+
+    .fullname{
+        flex-direction: column;
+    }
     
 
 }
@@ -169,4 +173,18 @@
     .dropdown-toggle{
         width: 100%!important;
     }
+
+    .modal-content{
+        width: 95%!important;
+        margin: auto;
+    }
+
+    .modal-dialog{
+        height: 90vh!important;
+    }
+
+    .place-oder{
+        width: 100%!important;
+    }
+    
 }

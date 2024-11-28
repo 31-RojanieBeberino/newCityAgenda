@@ -95,11 +95,11 @@
                                 <!-- <li><a href="#"> 26.6K Followers</a></li> -->
                             </ul>
                         </div>
-                        <button type="button" class="main-btn getTckBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Follow</button>
+                        <button type="button" class="main-btn getTckBtn" data-bs-toggle="modal" data-bs-target="#congratsModal">Follow</button>
                     </div>
 
 
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="congratsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -126,6 +126,8 @@
                         </div>
                     </div>
 
+
+            
 
 
                     <div class="date-location">
@@ -220,8 +222,115 @@
                             
                         </div>
                         <h4>€18.00</h4>
-                        <button class="main-btn getTckBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Get tickets</button>
+                        <button class="main-btn getTckBtn" data-bs-toggle="modal" data-bs-target="#eventModal">Get tickets</button>
                     </div>
+
+
+                    <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="row modal-details d-flex flex-lg-row flex-column gap-3">
+                                <div class="col-md-7 d-flex flex-column gap-2 align-items-center p-lg-5 p-0">
+                                    <h4>Checkout</h4>
+                                    <p>Time Left 17:41</p>
+                                    <hr>
+                                    <div class="not-you-sec">
+                                        <div>Logged In As <b><a href="#">Johndoe@Gmail.Com.</a> Not You?</b></div>
+                                        <b>Required*</b>
+                                    </div>
+                                    <form>
+                                        <div class="fullname">
+                                            <label>
+                                                First Name*
+                                                <input type="text" name="no-payment-firstName">
+                                            </label>
+                                            <label>
+                                                Last Name*
+                                                <input type="text" name="no-payment-lastName">
+                                            </label>
+                                        </div>
+                                        <label class="email-input">
+                                            Email Address*
+                                            <input type="email" name="no-payment-email">
+                                        </label>
+                                        <label class="checkbox-input">
+                                            <input type="checkbox">
+                                            Keep Me Updated On More Events And News From This Event Organizer.
+                                        </label>
+                                        <label class="checkbox-input">
+                                            <input type="checkbox">
+                                            Send Me Emails About The Best Events Happening Nearby Or Online.
+                                        </label>
+                                        
+                                        <h4>Pay With</h4>
+                                        <div class="credit-debit">
+                                            <label><input type="radio" name="collapseGroup" value="section1"> Credit Or Debit Card</label>
+                                            <div id="section1" class="collapse">
+                                                <label class="card-input">
+                                                    Card Number*
+                                                    <input type="text" name="card-number">
+                                                </label>
+                                                <div class="card-deb-sec">
+                                                    <label>
+                                                        Expiration Date*
+                                                        <input type="date" name="card-date">
+                                                    </label>
+                                                    <label>
+                                                        Security Code*
+                                                        <input type="text" name="sec-number">
+                                                    </label>
+                                                    <label>
+                                                        Zip Code*
+                                                        <input type="text" name="zip-code">
+                                                    </label>
+                                                </div>
+                                                <label class="checkbox-input">
+                                                    <input type="checkbox">
+                                                    Save Payment Details To Your Eventbrite Account (Optional)
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="credit-debit">
+                                            <label><input type="radio" name="collapseGroup" value="section2"> Paypal</label>
+                                            <div id="section2" class="collapse">
+                                                <p>Proceed Below With Your Paypal Account And Complete Your Purchase.</p>
+                                            </div>
+                                        </div> -->
+                                        <p>By Selecting Place Order, I Agree To The  CityAgenda Terms Of Services</p>
+                                        <input type="submit" value="Place Order" class="main-btn place-oder">
+                                    </form>
+                                </div>
+                                <div class="col-md-5 order-col">
+                                    <img src="img/modal-img1.png">
+                                    <div class="order-sum">
+                                        <div class="oder-details">
+                                            <h4>Order Summary</h4>
+                                            <p>Friday, December 27 · 12 - 9Pm PST</p>
+                                            <hr>
+                                            <div class="sum-detail">
+                                                <p>1 X General Admission</p>
+                                                <p><b>₱0.00</b></p>
+                                            </div>
+                                            <hr>
+                                            <p>Delivery</p>
+                                            <div class="sum-detail">
+                                                <p>1 X Eticket</p>
+                                                <p><b>₱0.00</b></p>
+                                            </div>
+                                        </div>
+                                        <div class="oder-total">
+                                            <div class="sum-total">
+                                                <p><b>1 X Eticket</b></p>
+                                                <h5><b>₱0.00</b></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
 
 
 
