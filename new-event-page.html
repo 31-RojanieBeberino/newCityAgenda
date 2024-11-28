@@ -213,8 +213,11 @@
                         <div class="quantity">
                             <h3>General Admission </h3>
                             <div class="counterSec">
-                                <i class="bi bi-dash-lg" onclick="decrementCounter(0)"></i><span id="counter1">0</span><i class="bi bi-plus-lg" onclick="incrementCounter(0)"></i>
+                                <i class="bi bi-dash-lg decrement" data-index="0"></i>
+                                <span id="counter1">0</span>
+                                <i class="bi bi-plus-lg increment" data-index="0"></i>
                             </div>
+                            
                         </div>
                         <h4>€18.00</h4>
                         <button class="main-btn getTckBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Get tickets</button>
@@ -631,37 +634,13 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+
 
 <script>
     let triggerEl = document.querySelector('#profile-tab')
     let tab = new bootstrap.Tab(triggerEl)
     tab.show() // Switches to the 'Profile' tab
-
-
-
-
-
-
-
-    // Counter Function
-
-    let counters = [0, 0, 0, 0, 0, 0, 0];
-
-    function updateCounter(index) {
-        document.getElementById('counter' + (index + 1)).innerText = counters[index];
-    }
-
-    function incrementCounter(index) {
-        counters[index]++;
-        updateCounter(index);
-    }
-
-    function decrementCounter(index) {
-        if (counters[index] > 0) {  // Check if the counter is greater than 0
-            counters[index]--;
-            updateCounter(index);
-        }
-    }
 
 
 

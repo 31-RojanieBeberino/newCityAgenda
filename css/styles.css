@@ -824,6 +824,7 @@
 .counterSec i{
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .counterSec i::before, .counterSec span{
