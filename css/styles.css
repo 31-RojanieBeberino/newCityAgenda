@@ -7,7 +7,7 @@ label, input, a, b{
 
 
 .main-nav{
-    background-color: #800080!important;
+    background-color: #5c0077!important;
 }
 
 .navbar-brand img {
@@ -20,7 +20,7 @@ label, input, a, b{
 
 
 .nav-form-search{
-    background-color: #730273;
+    background-color: #ab39cd;
     border-radius: 50px;
     padding:12px 40px !important;
     padding-left: 20px!important;
@@ -46,7 +46,7 @@ label, input, a, b{
 }
 
 .new-event{
-    background-color: #730273;
+    background-color: #ab39cd;
     padding:12px 40px!important;
     border-radius: 50px;
     border:0px;
@@ -57,7 +57,7 @@ label, input, a, b{
 .nav-action i{
     height:45px;
     width: 45px;
-    background-color: #730273;
+    background-color: #ab39cd;
     color:#fff;
     display: flex;
     justify-content: center;
@@ -392,7 +392,7 @@ label, input, a, b{
     font-size: 15px!important;
     color:#fff!important;
     position: absolute!important;
-    top:270px!important;
+    top:200px!important;
     right: 20px!important;
 }
 
@@ -1716,6 +1716,142 @@ label, input, a, b{
 
 
 /* End Emsterdam Page */
+
+
+
+
+
+
+
+
+/* Search Section */
+
+
+
+.searchSec{
+    padding:60px 20px;
+}
+
+.searchForm{
+    background-color: #f2f2f2;
+    padding:20px;
+    border-radius: 10px;
+}
+
+
+.inputField {
+    flex:auto;
+    width: 85%;
+    padding:13px 20px;
+    border-radius: 50px;
+    background-color: #fff;
+    color:#e7e7e7;
+}
+
+.inputField.Btn{
+    width: 15%;
+    flex:auto;
+    color: #fff;
+    background-color: #5c0077;
+}
+
+.inputField input {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.inputField.Btn input {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+}
+
+
+
+.searchSec form .dropdown-section {
+    margin-top: 20px;
+}
+
+
+.searchSec form .dropdown-section .filter_dp{
+    width: 20%;
+}
+
+.searchSec form .dropdown-section .filter_dp select, .sort-dropdown select{
+    outline: none;
+    font-family: 'Poppins'!important;
+    font-size: 13px!important;
+    padding: 15px!important;
+}
+
+
+.searchSec form .dropdown-section label {
+    font-weight: bold;
+    color: #6C2A7A; /* Purple */
+    font-size: 14px;
+}
+.searchSec form .dropdown-section .dropdown {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+}
+
+
+.searchSec form .sort-dropdown {
+    margin-left: auto;
+    width: 25%;
+}
+
+.searchSec form .form-select {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.resultSec .nav-tabs{
+    border: none!important;
+}
+
+
+.resultSec .nav-tabs .nav-link {
+    border-radius: 5px;
+    color: #6C2A7A!important; /* Purple text color */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 150px;
+    box-shadow: 0px 0px 5px #0000004b;
+}
+
+.resultSec .nav-tabs .nav-link.active {
+    color: white!important;
+    background-color: #6C2A7A; /* Purple background */
+}
+
+.resultSec .tab-content {
+    padding:0px;
+    border: none!important; /* Align with tabs */
+}
+
+
+/* END Search Section */
+
+
+
+
+
+
+
+
+
+
+
 
 
 

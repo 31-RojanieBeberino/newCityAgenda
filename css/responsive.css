@@ -5,6 +5,10 @@
         width: 100%;
     }
 
+    .navbar-toggler{
+        color:#fff!important;
+    }
+
 
     .desktop{
         display: none;
@@ -24,7 +28,7 @@
     }
 
     .heartIcon{
-        top:120px!important;
+        top:160px!important;
     }
 
 
@@ -160,6 +164,12 @@
     .fullname{
         flex-direction: column;
     }
+
+
+
+    .inputField{
+        width: 70%;
+    }
     
 
 }
@@ -170,6 +180,12 @@
         height: 250px;
         background-size: cover;
     }
+
+    .inputField, .inputField.Btn{
+        width: 100%;
+    }
+
+
     .dropdown-toggle{
         width: 100%!important;
     }
@@ -185,6 +201,33 @@
 
     .place-oder{
         width: 100%!important;
+    }
+
+
+    .filter_dp, .sort-dropdown,
+    .resultSec .nav-tabs .nav-link{
+        width: 100%!important;
+    }
+
+    .resultSec .nav-tabs .nav-link{
+        padding:10px 13px;
+    }
+
+    .heartIcon{
+        top: 130px!important;
+    }
+
+    .card-bottom div p{
+        font-size: 11px;
+    }
+
+    .card-body h3{
+        font-size: 17px;
+    }
+
+    .user-id{
+        width: 40px!important;
+        height:40px!important;
     }
     
 }
