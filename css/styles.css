@@ -372,6 +372,12 @@ label, input, a, b{
     border-radius: 20px;
 }
 
+.card .cardImg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
 .user-id{
     position: absolute!important;
     top:20px;
