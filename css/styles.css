@@ -374,7 +374,7 @@ label, input, a, b{
 
 .card .cardImg{
     width: 100%;
-    height: 280px;
+    height: 270px!important;
     object-fit: cover;
 }
 

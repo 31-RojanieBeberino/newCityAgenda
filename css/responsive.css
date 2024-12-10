@@ -213,6 +213,10 @@
         padding:10px 13px;
     }
 
+    .card .cardImg{
+        height: 180px!important;
+    }
+
     .heartIcon{
         top: 130px!important;
     }
@@ -225,13 +229,13 @@
         font-size: 17px;
     }
 
+    .nav-form-search{
+        width: 60%!important;
+    }
+
     .user-id{
         width: 40px!important;
         height:40px!important;
-    }
-
-    .card .cardImg{
-        height: 180px!important;
     }
     
 }
